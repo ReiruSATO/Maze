@@ -1,3 +1,4 @@
+package Map2D;
 import javax.swing.*;
 import java.awt.*;
 

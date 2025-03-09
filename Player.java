@@ -4,8 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-
-import playerView.MazeView;
+import View.MazeView;
 
 class Player extends MazeView{
     int maze[][];
@@ -14,7 +13,7 @@ class Player extends MazeView{
     int g_x,g_y;//Goal point
     int dir;//up: 0, right: 1, down: 2, left: 3
     public Player(final int[][] maze,int sx,int sy,int gx,int gy){
-        super(maze);
+        super(maze, gy, gy);
         this.x=sx;
         this.y=sy;
         this.g_x=gx;

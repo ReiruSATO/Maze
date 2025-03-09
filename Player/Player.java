@@ -1,6 +1,7 @@
 package Player;
 import End.End;
 import View.MazeView;
+
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
